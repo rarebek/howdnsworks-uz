@@ -23,217 +23,222 @@
   home:
     title: "DNS qanday ishlaydi?"
     p1: "DNS qanday ishlashi haqida qiziqarli va rang-barang tushuncha."
-    p2: "Salom! Biz bu komiksni brauzeringizda veb-sayt manzilini kiritganda nima bo‘lishini tushuntirish uchun yaratdik."
-    p3: "Mazza qiling! Boshlash uchun sizdan hech narsa talab etilmaydi."
+    p2: "Salom! Biz bu komiksni brauzeringizda veb-sayt manzilini kiritganda nimalar sodir bo‘lishini tushuntirish uchun yaratdik."
+    p3: "Mazza qiling! Boshlash uchun hech qanday maxsus bilim kerak emas."
     cta: "O‘qishni boshlash"
 
   # Episodes
-  ep1:
+   ep1:
     7: "TO‘XTA!"
     8: "Kompyuterlar va boshqa qurilmalar internetda bir-birlarini tanish uchun IP manzillar yordamida muloqot qiladi."
-    9: "Lekin insonlar IP manzillarni doyim ham eslab qola olishmaydi, shuning uchun ular so‘zlardan foydalanishadi."
-    10: "Domain Name System (DNS) bu ikki narsani bir-biriga bog‘laydi va sizning manziligizga olib boradi."
+    9: "Lekin odamlar IP manzillarni har doim ham eslab qola olmaydi, shuning uchun ular domen nomlaridan foydalanadilar." # Corrected: 'odamlar', 'har doim ham', 'domen nomlaridan' more specific
+    10: "Domen Nomlari Tizimi (DNS) bu ikkisini bir-biriga bog‘laydi va sizni kerakli manzilga yo‘naltiradi." # Corrected: 'Domen Nomlari Tizimi', 'kerakli manzilga yo'naltiradi'
     11: "Mana DNS qanday ishlaydi"
-    12: "Shoshma! Nima? Yangi so'rov bormi? Bu odamni kun bo'yi faqat internetni aylanib yurishdan boshqa ishi yo‘q."
-    13-1: "Operatsion tizimni yana bezovta qilishdan oldin dnsimple.com haqida bilishimni tekshirib ko‘raychi..."
+    12: "Shoshmang! Nima? Yangi soʻrovmi? Bu odam kun bo‘yi internetda kezishdan boshqa ish qilmaydiganga o‘xshaydi." # Corrected: 'Shoshmang' (polite/addressing OS), smoother sentence structure
+    13-1: "Operatsion tizimni yana bezovta qilishdan oldin, dnsimple.com keshimda bormikan, tekshirib ko‘raychi..." # Corrected: 'keshimda bormikan' (checking cache)
     13-2: "Exx... hech narsa yo‘q"
-    14: "Hoy OS (Operatsion tizim)! Shu yerdamisan? Zudlik bilan yordaming kerak. dnsimple.com ni qayerdan topish mumkinligini bilasanmi?"
+    14: "Hoy OT (Operatsion tizim)! Shu yerdamisiz? Tez yordamingiz kerak. dnsimple.com'ni qayerdan topishni bilasizmi?" # Corrected: 'OT', 'Shu yerdamisiz?', 'Tez yordamingiz kerak', 'bilasizmi?' (Polite form)
     15-1: "TOO_BUSY_ERR"
     15-2: "Ma’lumotlarni zaxiralash bilan bandman."
-    16: "Iltimooos, tekshirib ber"
-    17: "Xozir tekshiryapman..."
-    18-1: "Yo‘q. Uni qayerdaligini bilmayman..."
+    16: "Iltimooos, tekshirib bering" # Corrected: 'bering' (polite)
+    17: "Hozir tekshiryapman..." # Corrected: 'Hozir'
+    18-1: "Yo‘q. Qayerdaligini bilmayman..." # Corrected: More direct
     18-2: "...Lekin kimdan so‘rashni bilaman..."
     19: "RESOLVER"
-    20: "Brauzer va OS dnsimple.com ning IP manzilini o‘zlarining xotirasidan tekshirishadi. Topa olishmaganidan keyin, OS Resolver-ni chaqiradi."
-    21-1: "Bu sirli Resolver kim? U nima vazifa bajaradi?"
-    21-2: "DNS qanday ishlashi haqida keyingi epizodlarda bilib olishingiz mumkin."
+    20: "Brauzer va OT dnsimple.com'ning IP manzilini o‘z keshidan tekshiradi. Topa olmagach, OT Resolver'ni chaqiradi." # Corrected: 'OT', 'keshidan', 'Topa olmagach'
+    21-1: "Bu sirli Resolver kim o‘zi? U nima vazifa bajaradi?" # Corrected: Added 'o'zi' for natural flow
+    21-2: "DNS qanday ishlashi haqida keyingi bo‘limlarda bilib olasiz." # Corrected: 'bo'limlarda', 'olasiz'
 
-  ep2:
-    9: "Yangi so‘rovim? A-J-O-Y-I-B"
+
+    ep2:
+    9: "Menga yangi so‘rovmi? A-J-O-Y-I-B" # Corrected: 'Menga'
     10: "dnsimple.com? Albatta!"
-    11: "Xotiramni tekshirishni boshladim..."
-    12-1: "Menda yo‘q!"
-    12-2: "Bu saytni qanday topishim mumkin?"
-    13: "Borib, rootdan so'rab kel."
-    14-1: "Resolver server bu sizning odatiy ISP ingiz (Internet Service Provider). Barcha resolverlar bir narsani bilishadi: root serverni qayerda joylashganini."
+    11: "Keshimni tekshirishni boshladim..." # Corrected: 'Keshimni'
+    12-1: "Menda yo‘q ekan!" # Corrected: Added 'ekan'
+    12-2: "Bu saytni qanday topsam bo‘ladi?" # Corrected: More natural question
+    13: "Borib, Root serverdan so‘rab keling." # Corrected: 'Root serverdan', 'keling' (polite)
+    14-1: "Resolver server odatda sizning ISP'ingiz (Internet Xizmat Provayderingiz) bo‘ladi. Barcha resolverlar bir narsani biladi: Root serverlar qayerda joylashganini." # Corrected: 'ISP'ingiz', 'Root serverlar' (plural)
     14-2: "Resolver"
-    15: "Root server .COM TLD serverini qayerdaligini biladi. TLD - “yuqori darajali domen" degani.”
-    16-1: "Xonimlar va janoblar, root serverga R0XX reysi bilan xush kelibsiz. Havo harorati..."
-    16-2: "Bu menga mos keladigan yo‘l sayohati emas!"
-    17: "Millisekundlardan keyin..."
+    15: "Root server .COM TLD serveri qayerdaligini biladi. TLD - “yuqori darajali domen” degani." # Corrected: 'serveri'
+    16-1: "Xonimlar va janoblar, Root serverga R0XX reysi bilan xush kelibsiz. Havo harorati..." # Corrected: 'Root serverga'
+    16-2: "Bu men kutgan sayohat emas!" # Corrected: More natural phrasing
+    17: "Millisekundlardan so‘ng..." # Corrected: 'so'ng'
     18-1: "Biz bilan uchganingiz uchun rahmat. Yana sizni bortimizda kutib qolamiz."
     18-2: "Vanihoyat!"
-    19: "Umid qilamanki, root shu yerda!"
-    21: "Kim bu? Nima izlayapsiz?"
-    22-1: "Resolver dnsimple.com ga yo‘l topa oladimi?"
-    22-2: "DNS qanday ishlashi haqida keyingi epizodlarda bilib olishingiz mumkin."
+    19: "Umid qilamanki, Root server shu yerda!" # Corrected: 'Root server'
+    21: "Kim u? Nima qidiryapsiz?" # Corrected: More natural
+    22-1: "Resolver dnsimple.com'ga yo‘l topa olarmikan?" # Corrected: '-mikan' (wondering)
+    22-2: "DNS qanday ishlashi haqida keyingi bo‘limlarda bilib olasiz." # Corrected: 'bo'limlarda', 'olasiz'
 
   ep3:
     4: "KEYINGI!"
-    5: "KEEYIINGII!!!"
-    6: "Sizga nima yordam berishim mumkin?"
-    7: "Root, dnsimple.com ning IP manzilini topishga harakat qilyapman..."
-    8: "Qayerdan topishim mumkinligini bilasanmi?"
-    9: "Uzr, resolver. dnsimple.com ni qayerdan topishni bilmayman."
-    10: "Lekin senga .COM yuqori darajali domen serverini qayerdan topish mumkinligini aytishim mumkin!"
+    5: "KEEEYIINGIII!!!" # Corrected: More emphasis
+    6: "Sizga qanday yordam bera olaman?" # Corrected: Natural question form
+    7: "Root server, men dnsimple.com'ning IP manzilini topishga harakat qilyapman..." # Corrected: 'Root server, men...'
+    8: "Qayerdan topishim mumkinligini bilasizmi?" # Corrected: 'bilasizmi?' (polite)
+    9: "Uzr, Resolver. dnsimple.com'ni qayerdan topishni bilmayman." # Corrected: 'Resolver'
+    10: "Lekin sizga .COM yuqori darajali domen (TLD) serverini qayerdan topishni ayta olaman!" # Corrected: 'sizga', Added '(TLD)'
     11: ""
-    12: "Lekin birinchi bo‘lib, bu ma‘lumotni saqlab olaman, shunda rootdan qayta so‘ramayman."
-    13: "Bu root server xozirda mavjud bo‘lgan 13 ta root nom serverlardan biridir."
-    14: "Root server DNS hierarxiyasining ustida joylashgan."
-    15: "Ular butun dunyo bo‘ylab tarqalgan va 12 ta mustaqil tashkilotlar tomonidan boshqariladi."
-    16: "Ular [harf].root-servers.net shaklida nomlanadi, bu harf A dan M gacha bo‘lgan harflar oralig‘ida bo‘ladi."
-    17: "Bu butun internetning 13 ta fizik serverlar boshqaradi degani emas!"
-    18: "Har bir tashkilot bir nechta fizik serverlarni butun dunyo bo‘ylab tarqalgan joylarda boshqaradi."
-    23-1: "Bu menga mos keladigan yo‘l sayohati emas!"
-    23-2: "Lekin biz shu yerdamiz..."
-    24-1: ".COM yuqori darajali domen serverimiz bizning do‘stimiz resolverga qanday yordam beradi?"
-    24-2: "DNS qanday ishlashi haqida keyingi epizodlarda bilib olishingiz mumkin."
+    12: "Avvaliga bu ma’lumotni keshga saqlab qo‘yay, keyin yana Root serverdan so‘rab yurmayman." # Corrected: 'Avvaliga', 'keshga', 'Root serverdan'
+    13: "Bu hozirda mavjud bo‘lgan 13 ta Root nom serverlaridan biridir." # Corrected: 'hozirda', 'Root nom serverlaridan'
+    14: "Root serverlar DNS iyerarxiyasining eng yuqorisida joylashgan." # Corrected: Plural 'serverlar', 'iyerarxiyasining', 'eng yuqorisida'
+    15: "Ular butun dunyo bo‘ylab tarqalgan va 12 ta mustaqil tashkilot tomonidan boshqariladi."
+    16: "Ular [harf].root-servers.net shaklida nomlanadi, bu yerda harf A dan M gacha bo‘lgan harflar oralig‘ida bo‘ladi." # Corrected: 'bu yerda harf'
+    17: "Bu butun internetni atigi 13 ta fizik server boshqaradi, degani emas!" # Corrected: Added 'atigi', structure
+    18: "Har bir tashkilot butun dunyo bo‘ylab tarqalgan joylardagi bir nechta fizik serverlarni boshqaradi." # Corrected: Word order
+    23-1: "Bu men kutgan sayohat emas!" # Corrected: Consistent with 16-2 ep2
+    23-2: "Lekin mana, yetib keldik..." # Corrected: Smoother
+    24-1: ".COM TLD serveri do‘stimiz Resolverga qanday yordam berarkin?" # Corrected: '.COM TLD serveri', 'Resolverga', '-arkin' (wondering)
+    24-2: "DNS qanday ishlashi haqida keyingi bo‘limlarda bilib olasiz."
+
 
   ep4:
-    3: "Yaxshi, bu yer men tasavvur qilganimdan ancha qulayroq ekan..."
-    4: "...Ba’zi ichimliklarni xonadon haroratida saqlash kerak bo'lganda nima qilasiz?"
-    6: "Uzr! Men dnsimple.comni qidiryapman, uni qayerdan topishim mumkinligini bilasizmi?"
-    7: "Mana bu juda yaxshi savol!"
-    8: "Ko’pgina yuqori darajadagi domenlar (TLD)ni boshqarish 'Internet nomlari va IP manzillarini tayinlash korporatsiyasi' (ICANN) tomonidan amalga oshiriladi."
-    9-1: ".COM yuqori darajadagi domeni 1985-yilda birinchi bo'lib yaratilgan."
-    9-2: "Bugun, u internetdagi eng katta TLDdir."
-    10-1: "Boshqa turdagi TLDlar quyidagilar: "
-    10-2: "1. Davlat kodli TLDlar. Ular 2 ta lotin harfi bo'lgan davlatning ISO kodini o'z ichiga oladi."
-    11: "2. Xalqaro davlat kodli TLDlar."
-    12-1: "3. Umumiy TLDlar: .NET, .ORG, .EDU, va boshqalar... "
-    12-2: "Odatda 3 ta yoki undan ko'p harfli bo’ladi."
-    13-1: "4. Infrastruktura TLDlar: .ARPA, odatda teskari DNS qidiruvida ishlatiladi."
-    13-2: "Xozirgi qilayotgan ishimizning teskarisi."
-    13-3: "Biz bunday qilyapmiz:"
-    13-4: "Teskari DNS bunday ishlayapdi:"
-    14: "Va bugun, ko'p umumiy TLDlar yaratilmoqda!"
-    15: "Xozir, resolver, sizning savolingizga navbat!"
-    16: "Men dnsimple.com ning IP manzilini bilmayman"
-    17: "Lekin men nom serverlarni topdim!"
-    18: "Ajoyib! Men keyinroq bu ma'lumotni saqlab olaman"
-    20: ".COM dnsimple.com domenining nom serverlarini topdi."
-    21-1: "Lekin nimaga nomlarini?"
-    21-2: "Biz keyinroq bilib olamiz..."
-    22: "Shuning uchun sayohatimiz davom etadi..."
-    23-1: "Nom serverlari nimalar?"
-    23-2: "DNS qanday ishlashi haqida keyingi epizodlarda bilib olishingiz mumkin."
+    3: "Yaxshi, bu yer men o‘ylaganimdan ancha shinamroq ekan..." # Corrected: 'o'ylaganimdan', 'shinamroq' (cozier)
+    4: "...Xona haroratida saqlanishi kerak bo‘lgan ichimliklar bilan nima qilasiz?" # Corrected: 'Xona haroratida', structure
+    6: "Kechirasiz! Men dnsimple.com'ni qidiryapman, uni qayerdan topishni bilmaysizmi?" # Corrected: 'Kechirasiz', 'bilmaysizmi?'
+    7: "Bu juda yaxshi savol!"
+    8: "Ko‘pchilik yuqori darajali domenlarni (TLD) boshqarish 'Internet nomlari va IP manzillarini tayinlash korporatsiyasi' (ICANN) tomonidan amalga oshiriladi." # Corrected: 'Ko'pchilik'
+    9-1: ".COM yuqori darajali domeni birinchi marta 1985-yilda yaratilgan." # Corrected: 'birinchi marta'
+    9-2: "Bugungi kunda u internetdagi eng yirik TLD hisoblanadi." # Corrected: 'Bugungi kunda', 'yirik', 'hisoblanadi'
+    10-1: "Boshqa turdagi TLDlarga quyidagilar kiradi:" # Corrected: 'kiradi'
+    10-2: "1. Davlat kodli TLDlar (ccTLD). Ular davlatning 2 harfli ISO kodidan iborat bo‘ladi." # Added abbreviation, structure
+    11: "2. Xalqarolashtirilgan davlat kodli TLDlar (IDN ccTLD)." # Corrected: 'Xalqarolashtirilgan', added abbreviation
+    12-1: "3. Umumiy TLDlar (gTLD): .NET, .ORG, .EDU va hokazo..." # Added abbreviation, 'hokazo'
+    12-2: "Odatda 3 yoki undan ko‘p harfdan iborat bo‘ladi." # Corrected: structure
+    13-1: "4. Infratuzilma TLDlari: .ARPA, odatda teskari DNS qidiruvida ishlatiladi." # Corrected: 'Infratuzilma TLDlari'
+    13-2: "Hozirgi qilayotgan ishimizning aksi." # Corrected: 'Hozirgi', 'aksi'
+    13-3: "Biz mana bunday qidiryapmiz:" # Corrected: Added 'mana'
+    13-4: "Teskari DNS esa bunday ishlaydi:" # Corrected: Added 'esa'
+    14: "Va hozirda juda ko‘p yangi umumiy TLDlar yaratilmoqda!" # Corrected: 'hozirda', 'juda ko'p yangi'
+    15: "Endi, Resolver, savolingizga qaytamiz!" # Corrected: 'Endi', 'Resolver'
+    16: "Men dnsimple.com'ning IP manzilini bilmayman"
+    17: "Lekin men uning nom serverlarini topdim!" # Corrected: 'uning nom serverlarini'
+    18: "Ajoyib! Bu ma’lumotni darhol keshga saqlab qo‘yaman." # Corrected: 'darhol keshga saqlab qo'yaman'
+    20: ".COM TLD serveri dnsimple.com domenining nom serverlarini topdi." # Corrected: '.COM TLD serveri'
+    21-1: "Lekin nega nomlarini o‘zini?" # Corrected: Added 'o'zini'
+    21-2: "Buni keyinroq bilib olamiz..."
+    22: "Demak, sayohatimiz davom etadi..." # Corrected: 'Demak'
+    23-1: "Vakolatli nom serverlari kimlar o'zi?" # Corrected: Who are the authoritative name servers?
+    23-2: "DNS qanday ishlashi haqida keyingi bo‘limlarda bilib olasiz."
+
 
   ep5:
-    2: ".COM TLD serveri meni mualliflik nom serverlariga qanday yo‘naltirishi mumkin"
-    3: "U qanday qilib bu ulanishni amalga oshirishi mumkin? .COM domenlari juda ko‘p!"
-    4: "Domain Registrar yordamida bu juda ham oson!"
-    5: "Domen sotib olinganda, domain registrator nomni band qiladi..."
-    6: "... va TLD registratorga nom serverlarini ko‘rsatadi."
-    7: "Biz yetib keldik!"
-    8: "Hujjatlaringiz, iltimos"
-    9: "Tezda bo‘laman, bu yerda qolish istagim yo’q. ns1.dnsimple.com ni qidirishim kerak."
-    10: "Hujjatlaringizni ko‘rishim kerak!"
-    11: "Voy! Men faqat dnsimple.com haqida so‘rayman xolos. .COM TLD menga ns1.dnsimple.com IP manzilni qayerdan topishimni aytishi mumkinligini aytdi."
-    12: "Xo‘sh, bunday bo‘lsa..."
-    13: "Men ns1.dnsimple.com man."
-    14: "Va men sizga shu javobni berishim mumkin!"
-    15: "Hozirda dnsimple.com tomonidan boshqariladigan har qanday domenni boshqarish usulini biladiganlar to‘rt kishimiz."
-    16-1: "Biz DNS so‘rovlariga javoblar beramiz: veb-saytlar, e-mail, ..."
-    16-2: "Biz bu masalada vakolatga egamiz."
-    17: "Hech qanday keshlangan qiymatlar yo‘q. Boshqalardan so‘ramaymiz. Faqat haqiqiy natija."
-    18: "Ko‘rib turganingizdek, asosan domenlarga bir nechta nom serverlar qo‘shiladi."
-    19-1: "Siz, resolver, sizga bu ro‘yxat noma’lum tartibda beriladi."
+    2: ".COM TLD serveri meni qanday qilib vakolatli nom serverlariga yo‘naltirdi?" # Corrected: 'vakolatli', structure
+    3: "U buni qanday biladi axir? .COM domenlari juda ko‘p-ku!" # Corrected: Natural phrasing
+    4: "Domen Registratori yordamida bu juda oson!" # Corrected: 'Domen Registratori'
+    5: "Domen sotib olinganda, domen registratori nomni ro‘yxatdan o‘tkazadi..." # Corrected: 'domen registratori', 'ro'yxatdan o'tkazadi'
+    6: "...va TLD reyestriga nom serverlarini ma’lum qiladi." # Corrected: 'TLD reyestriga', 'ma'lum qiladi'
+    7: "Yetib keldik!" # Corrected: Shorter
+    8: "Hujjatlaringizni ko‘rsating, iltimos" # Corrected: 'ko'rsating'
+    9: "Tezroq bo‘lsak. Bu yerda qolib ketish niyatim yo‘q. Men ns1.dnsimple.com'ni qidiryapman." # Corrected: Smoother phrasing
+    10: "Hujjatlaringizni ko‘rishim shart!" # Corrected: 'shart' (must)
+    11: "Voy! Men shunchaki dnsimple.com haqida so‘rayapman. .COM TLD serveri menga IP manzilni ns1.dnsimple.com'dan topishim mumkinligini aytdi." # Corrected: Natural flow
+    12: "Xo‘p, unday bo‘lsa..." # Corrected: 'Xo'p'
+    13: "Men ns1.dnsimple.com'man."
+    14: "Va men sizga kerakli javobni bera olaman!" # Corrected: 'kerakli javobni'
+    15: "Biz to‘rttamiz dnsimple.com tomonidan boshqariladigan barcha domenlar haqida ma’lumotga egamiz." # Corrected: Clearer phrasing
+    16-1: "Biz DNS so‘rovlariga javob beramiz: veb-saytlar, e-pochta, ..." # Corrected: 'e-pochta'
+    16-2: "Bu masalada biz vakolatlimiz." # Corrected: More direct 'vakolatlimiz'
+    17: "Hech qanday kesh ma’lumoti yo‘q. Boshqalardan so‘ramaymiz. Faqat haqiqiy javob." # Corrected: 'kesh ma'lumoti', 'javob'
+    18: "Ko‘rib turganingizdek, odatda domenlarga bir nechta nom server biriktiriladi." # Corrected: 'odatda', 'biriktiriladi'
+    19-1: "Sizga, Resolver, bu ro‘yxat tasodifiy tartibda beriladi." # Corrected: 'Resolver', 'tasodifiy tartibda'
     19-2: "Siz ro‘yxatdagi birinchi nom serveriga so'rov yuborishingiz mumkin."
-    19-3: "YOKI! Biz tayyor turgan bo‘lamiz!"
-    20-1: "Biz ko'pchilik bo'lganimiz uchun, ish yuklamasi yaxshi taqsimlangan."
-    20-2: "va DNS zonasi mavjudlik ehtimoli oshgan."
-    21: "Ayniqsa xatoliklar bo‘lganda!"
-    22-1: "Agar siz domeningiz uchun mualliflik nom serverlarini bilmoqchi bo'lsangiz, WHOIS so'rovini yuboring."
-    22-2: "Bunday ma'lumotlarni beradigan bir nechta veb-saytlar mavjud."
-    23: "Mana: 50.31.213.210"
+    19-3: "YOKI! Biz ham tayyor turgan bo‘lamiz!" # Corrected: Added 'ham'
+    20-1: "Biz bir nechtamiz, shuning uchun ish yuklamasi yaxshi taqsimlangan." # Corrected: Simpler phrasing
+    20-2: "...va DNS zonaning uzluksiz ishlashi ta’minlangan." # Corrected: 'uzluksiz ishlashi'
+    21: "Ayniqsa nosozliklar yuz berganda!" # Corrected: 'nosozliklar yuz berganda'
+    22-1: "Agar domeningiz uchun vakolatli nom serverlarni bilmoqchi bo‘lsangiz, WHOIS so‘rovini yuboring." # Corrected: 'vakolatli'
+    22-2: "Bunday ma'lumotlarni taqdim etadigan bir nechta veb-saytlar mavjud." # Corrected: 'taqdim etadigan'
+    23: "Marhamat: 50.31.213.210" # Corrected: 'Marhamat'
     24: "Nima?"
-    25-1: "dnsimple.com IP manzili: 50.31.213.210"
-    25-2: "Yana nimadir kerakmi?"
+    25-1: "dnsimple.com'ning IP manzili: 50.31.213.210"
+    25-2: "Yana biror nima kerakmi?" # Corrected: 'biror nima'
     26: "Yo‘q. Rahmat!"
-    27: "Men bu ma'lumotni saqlab olishim kerak!"
-    28: "Resolver oxirgi topgan javobni topdi! Mualliflik nom serveriga olqishlar!"
-    29: "Uyga qaytish vaqti keldi!"
-    30-1: "Resolver uyga vaqtida qaytib boradimi?"
-    30-2: "DNS qanday ishlashi haqida keyingi epizodlarda bilib olishingiz mumkin."
+    27: "Bu ma’lumotni keshga saqlashim kerak!" # Corrected: 'keshga saqlashim'
+    28: "Resolver nihoyat javobni topdi! Vakolatli nom serverga olqishlar!" # Corrected: 'nihoyat', 'Vakolatli'
+    29: "Endi uyga qaytish vaqti!" # Corrected: Added 'Endi'
+    30-1: "Resolver uyga o‘z vaqtida qaytib bora olarmikan?" # Corrected: 'o'z vaqtida', '-mikan'
+    30-2: "DNS qanday ishlashi haqida keyingi bo‘limlarda bilib olasiz."
+
 
   ep6:
-    3: "JETPACKlar(uchish moslamasi)"
-    4: "Hamma bilan uchrashganim juda ajoyib bo‘ldi!"
-    5: "Root meni .COM serverni qayerdan topishimni aytdi."
-    6: "TLD server menga mualliflik nom serverlarining manzilini berdi."
-    7: "Keyin, ns1.dnsimple.com menga dnsimple.com ning IP manzilini berdi."
-    8: "Nihoyat, biz bu yerda, men javob mumkin."
-    9: "JETPACKlar"
-    10: "Resolver! Vaqti keldi! Bir necha millisekunddan beri kutyapman. Yo‘qolib qolding deb o‘ylagandim!"
-    11-1: "Salom OS! Senga sayohatim haqida keyinroq aytib beraman."
-    11-2: "Mana senga javob..."
-    12: "dnsimple.com ning IP manzili:"
-    13: "Ajoyib! Men bu ma'lumotni saqlab olishim kerak, shunda keyingi safar dnsimple.com haqida sendan qayta so‘ramayman"
+    3: "JETPAKLAR (uchish moslamasi)" # Corrected: Spelling
+    4: "Hamma bilan tanishganim ajoyib bo‘ldi!" # Corrected: 'tanishganim'
+    5: "Root server menga .COM TLD serverini qayerdan topishni aytdi." # Corrected: 'Root server', '.COM TLD serverini'
+    6: "TLD serveri menga vakolatli nom serverlarning manzilini berdi." # Corrected: 'vakolatli'
+    7: "Keyin, ns1.dnsimple.com menga dnsimple.com'ning IP manzilini berdi."
+    8: "Nihoyat, yetib keldik, endi javobni bera olaman." # Corrected: Smoother phrasing
+    9: "JETPAKLAR" # Corrected: Spelling
+    10: "Resolver! Nihoyat! Bir necha millisekunddan beri kutyapman. Yo‘qolib qoldingiz deb o‘ylagandim!" # Corrected: Added 'Nihoyat', 'qoldingiz' (polite)
+    11-1: "Salom OT! Sayohatim haqida keyinroq aytib beraman." # Corrected: 'OT'
+    11-2: "Mana sizga javob..." # Corrected: 'sizga'
+    12: "dnsimple.com'ning IP manzili:"
+    13: "Ajoyib! Bu ma’lumotni keshga saqlab qo‘yishim kerak, shunda keyingi safar dnsimple.com haqida sizdan qayta so‘ramayman." # Corrected: 'keshga saqlab qo'yishim', 'sizdan'
     14: "Meni kimdir chaqirdimi?"
-    15: "Ha! Tezda! 50.31.213.210 ga nima kerakligini so‘rang."
-    16-1: "Vanihoyat! Men siz yo'lda bo'lganingizda tomoshabinlarimni zeriktirmaslik uchun shunday kulgili giflardan birini ko'rsatishni o'ylagan edim."
-    16-2: "Ha mayli, yaxshi, keyinroq."
-    17: "50.31.213.210 ga ulanyapman..."
-    19: "Salom! Iltimos, HTML faylingizni yubora olasizmi?"
-    20: "Albatta! Yo'lda ketyapdi!"
-    21: "Mana..."
-    24-1: "Kech bo'lyabdi."
-    24-2: "So'nggi videoni YouTube'dan tomosha qilaman."
-    25: "YouTube? Men uni qayerdan topishimni bilaman!"
-    26: "Bizning sayohatimiz tugadi va bu hikoya ham tugash arafasida."
-    27: "Umid qilamizki bu sizga yoqdi!"
-    28: "Bizni twitterdan toping."
+    15: "Ha! Tezroq! 50.31.213.210 manziliga ulanib, sahifani so‘rang." # Corrected: Clearer action
+    16-1: "Vanihoyat! Siz yo‘lda ekanligingizda foydalanuvchini zeriktirmaslik uchun kulgili GIF ko‘rsatmoqchi bo‘lib turgandim." # Corrected: 'foydalanuvchini'
+    16-2: "Ha mayli, keyingi safarga." # Corrected: Smoother
+    17: "50.31.213.210 manziliga ulanyapman..." # Corrected: Added 'manziliga'
+    19: "Salom! Iltimos, HTML faylingizni yuboring." # Corrected: 'yuboring'
+    20: "Albatta! Mana, yo‘lda!" # Corrected: Added 'Mana'
+    21: "Marhamat..." # Corrected: 'Marhamat'
+    24-1: "Kech bo‘lib qoldi." # Corrected: Natural phrasing
+    24-2: "Oxirgi bitta videoni YouTube'dan ko‘raman." # Corrected: 'Oxirgi bitta', 'ko'raman'
+    25: "YouTube? Uni qayerdan topishni bilaman!"
+    26: "Bizning sayohatimiz yakunlandi va bu hikoya ham o‘z nihoyasiga yetmoqda." # Corrected: More formal ending
+    27: "Umid qilamizki, bu sizga yoqdi!"
+    28: "Bizni Twitter'da toping." # Corrected: 'Twitter'da'
     29: "O‘qiganingiz uchun rahmat!"
-    31-1: "Bo‘ldimi? Tugadimi? Yo'q, bo'lmaydi!"
-    31-2: "Hali qo'shimcha bonus epizodimiz bor!"
-    31-3: "Bonus epizodini o'qish"
+    31-1: "Tamommi? Tugadimi? Yo‘q, bo‘lishi mumkin emas!" # Corrected: 'Tamommi', 'bo'lishi mumkin emas!'
+    31-2: "Hali qo‘shimcha bonus bo‘limimiz bor!" # Corrected: 'bo'limimiz'
+    31-3: "Bonus bo‘limini o‘qish" # Corrected: 'Bonus bo'limini'
+
 
   ep7:
     1: "Xo‘sh..."
-    2: "Bu yerda nimadir yetishmayapdi!"
-    3: "Resolver 'dnsimple.com'ni topmasdan avval, qanday qilib 'ns1.dnsimple.com'ni topishi mumkin?"
-    4: "'ns1.dnsimple.com' 'dnsimple.com'ning subdomeni bo'lgani uchun, qanday qilib avval 'dnsimple.com'ni topmasdan 'ns1.dnsimple.com'ni topish mumkin?"
-    5: "Qidiruv teskari yo'nalishda bo'lmayapdimi?"
-    6: "Biz qachondir tsiklda qolib ketmaymizmi?"
-    7: "Masalan, faraz qilaylik, domain.com uchun mualliflik serveri ns1.domain.com."
-    8-1: "Agar men domain.com ni ochmoqchi bo'lsam, .COM TLD serveri menga IP-manzilni mualliflik serveri ns1.domain.com dan olishni aytardi."
-    8-2: "Go ask ns1.domain.com"
-    9-1: "ns1.domain.com is a subdomain of domain.com"
-    9-2: "We cannot get to a subdomain without getting to the domain first!"
-    10: "Stuck in a loop!"
-    11: "So, what happened? How come the resolver was able to find 'dnsimple.com' through 'ns1.dnsimple.com'?"
-    12-1: "Simple!"
-    12-2: "Glue records!"
-    13: "Glue records?"
-    14: "Exactly!"
-    15-1: "Awesome!"
-    15-2: "I'll explain then!"
-    16: "When the resolver asked the .COM TLD about dnsimple.com, extra information was attached to that response."
-    17: "The resolver got at least one IP address for each name server."
-    18: "We call that the glue!"
-    19: "So the resolver not only got the name of the authoritative name server, it also got the IP address."
-    20: "Thus breaking the circular dependency."
-    21: "Nice! I understand it now!"
-    22: "Glue records rock!"
-    23-1: "Yes, they do!"
-    23-2: "hahaha, thanks!"
-    25: "You made it through the end! Now is a good time to watch the video that we made for this comic!"
-    26-1: "Watch this short animation based on this comic. They finally have a voice!"
-    26-2: "Watch video"
+    2: "Bu yerda qandaydir mantiqsizlik bor!" # Translated and adapted
+    3: "Resolver 'dnsimple.com'ni topishdan oldin, qanday qilib 'ns1.dnsimple.com'ni topishi mumkin?" # Translated
+    4: "'ns1.dnsimple.com' domeni 'dnsimple.com'ning quyi domeni bo‘lsa, qanday qilib avval 'dnsimple.com'ni topmasdan 'ns1.dnsimple.com'ni topish mumkin?" # Translated and rephrased
+    5: "Bu bir-biriga bog‘liq bo‘lib qolmadimi?" # Translated and adapted
+    6: "Biz cheksiz aylanaga tushib qolmaymizmi?" # Translated
+    7: "Masalan, domain.com uchun vakolatli server ns1.domain.com deb faraz qilaylik." # Translated and corrected 'vakolatli'
+    8-1: "Agar men domain.com'ni qidirsam, .COM TLD serveri menga IP manzilni vakolatli server ns1.domain.com'dan olishni aytadi." # Translated and corrected 'vakolatli'
+    8-2: "Borib ns1.domain.com'dan so‘rang." # Translated (polite)
+    9-1: "ns1.domain.com — bu domain.com'ning quyi domeni" # Translated
+    9-2: "Domenni aniqlamasdan turib quyi domenni aniqlashning iloji yo‘q!" # Translated
+    10: "Biz bu aylanadan chiqa olmaymiz – quyi domenni topish uchun domen kerak, domenni topish uchun esa quyi domen!" # Translated
+    11: "Xo‘sh, unda nima bo‘ldi? Qanday qilib Resolver 'dnsimple.com'ni 'ns1.dnsimple.com' orqali topa oldi?" # Translated and corrected 'Resolver'
+    12-1: "Juda oddiy!" # Translated
+    12-2: "Glue yozuvlari yordamida!" # Translated
+    13: "Glue yozuvlari?" # Translated
+    14: "Aynan shunday!" # Translated
+    15-1: "Ajoyib!" # Translated
+    15-2: "Unda tushuntiraman!" # Translated
+    16: "Resolver .COM TLD serveridan dnsimple.com haqida so‘raganida, javobga qo‘shimcha ma’lumot ilova qilingan edi." # Translated
+    17: "Resolver har bir nom serveri uchun kamida bitta IP manzilni ham olgan." # Translated
+    18: "Biz buni 'glue' (yopishtiruvchi) yozuv deb ataymiz!" # Translated and explained
+    19: "Shunday qilib, Resolver nafaqat vakolatli nom serverining nomini, balki uning IP manzilini ham olgan." # Translated and corrected 'vakolatli'
+    20: "Bu esa o‘zaro bog‘liqlik zanjirini uzgan." # Translated
+    21: "Zo‘r! Endi tushundim!" # Translated
+    22: "Glue yozuvlari juda kerakli narsa ekan!" # Translated and adapted
+    23-1: "Ha, albatta!" # Translated
+    23-2: "hahaha, rahmat!" # Translated
+    25: "Siz oxirigacha yetib keldingiz! Endi ushbu komiks asosida tayyorlagan videomizni tomosha qilishning ayni vaqti!" # Translated
+    26-1: "Uшbu komiks asosidagi qisqa animatsiyani tomosha qiling. Nihoyat personajlarimiz ovozga ega bo'lishdi!" # Translated and adapted
+    26-2: "Videoni ko‘rish" # Translated
 
   meet:
-    title: "Meet DNSimple"
-    1: "A few people wrote in to ask what DNSimple is about. Great question!"
-    2: "Our goal: Providing a domain management service that makes your life easier."
-    3: "We started DNSimple because we were tired of confusing, complicated domain management."
-    4: "We were tired of complex pricing."
-    5: "We were tired of constantly being bombarded by up-selling."
-    6: "Frankly, we were tired."
-    7-1: "We want to register a domain and set it up with as little effort as possible."
-    7-2: "We want to be able to automate everything."
-    8: "This is why we built and nurture DNSimple."
-    9: "With our custom DNS records, one-click setups, Slack app, and APIs, taking care of your domains and online business is actually enjoyable."
-    10: "We provide a fully automated way to request, renew, and install SSL certificates."
-    11: "So get started now by automating your domain management."
-    12: "We can't wait to see you!"
+    title: "DNSimple bilan tanishing" # Translated
+    1: "Bir nechta kishi DNSimple nima ekanligi haqida so‘rab yozishdi. Ajoyib savol!" # Translated
+    2: "Maqsadimiz: Hayotingizni osonlashtiradigan domen boshqaruv xizmatini taqdim etish." # Translated
+    3: "Biz DNSimple'ni chalkash, murakkab domen boshqaruvidan charchaganimiz uchun boshladik." # Translated
+    4: "Biz murakkab narxlardan charchadik." # Translated
+    5: "Biz doimiy ravishda qo‘shimcha mahsulotlarni sotishga urinishlardan (up-selling) charchadik." # Translated
+    6: "Ochig‘ini aytsak, biz holdan toygandik." # Translated and adapted
+    7-1: "Biz domenni ro‘yxatdan o‘tkazishni va uni iloji boricha kam harakat bilan sozlashni xohlaymiz." # Translated
+    7-2: "Biz hamma narsani avtomatlashtira olishni istaymiz." # Translated
+    8: "Shuning uchun biz DNSimple'ni yaratdik va uni rivojlantirmoqdamiz." # Translated
+    9: "Maxsus DNS yozuvlarimiz, bir marta bosish bilan sozlash imkoniyatlari, Slack ilovasi va API'larimiz yordamida domenlaringiz va onlayn biznesingizni boshqarish haqiqatan ham yoqimli jarayonga aylanadi." # Translated and slightly rephrased
+    10: "Biz SSL sertifikatlarini so‘rash, yangilash va o‘rnatishning to‘liq avtomatlashtirilgan usulini taqdim etamiz." # Translated
+    11: "Shunday ekan, domen boshqaruvingizni avtomatlashtirish orqali hoziroq boshlang." # Translated
+    12: "Sizni platformamizda kutib qolamiz!" # Translated and adapted

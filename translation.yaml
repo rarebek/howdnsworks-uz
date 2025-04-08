@@ -94,7 +94,7 @@ ep3:
 
 ep4:
   3: "Yaxshi, bu yer men o‘ylaganimdan ancha shinamroq ekan..." # Corrected: 'o'ylaganimdan', 'shinamroq' (cozier)
-  4: "...Xona haroratida saqlanishi kerak bo‘lgan ichimliklar bilan nima qilasiz?" # Corrected: 'Xona haroratida', structure
+  4: "...ba’zi ichimliklarni 'xona haroratida' iching deyishsa, nima qilasiz?" # Corrected: 'Xona haroratida', structure
   6: "Kechirasiz! Men dnsimple.com'ni qidiryapman, uni qayerdan topishni bilmaysizmi?" # Corrected: 'Kechirasiz', 'bilmaysizmi?'
   7: "Bu juda yaxshi savol!"
   8: "Ko‘pchilik yuqori darajali domenlarni (TLD) boshqarish 'Internet nomlari va IP manzillarini tayinlash korporatsiyasi' (ICANN) tomonidan amalga oshiriladi." # Corrected: 'Ko'pchilik'
@@ -224,7 +224,7 @@ ep7:
   23-1: "Ha, albatta!" # Translated
   23-2: "hahaha, rahmat!" # Translated
   25: "Siz oxirigacha yetib keldingiz! Endi ushbu komiks asosida tayyorlagan videomizni tomosha qilishning ayni vaqti!" # Translated
-  26-1: "Uшbu komiks asosidagi qisqa animatsiyani tomosha qiling. Nihoyat personajlarimiz ovozga ega bo'lishdi!" # Translated and adapted
+  26-1: "Ushbu komiks asosidagi qisqa animatsiyani tomosha qiling. Nihoyat personajlarimiz ovozga ega bo'lishdi!" # Translated and adapted
   26-2: "Videoni ko‘rish" # Translated
 
 meet:
